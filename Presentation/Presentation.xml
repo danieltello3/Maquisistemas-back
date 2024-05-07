@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:Presentation.Controllers.ApiController">
+            <summary>
+            Represents the base API controller.
+            </summary>
+        </member>
+        <member name="P:Presentation.Controllers.ApiController.Sender">
+            <summary>
+            Gets the sender.
+            </summary>
+        </member>
+    </members>
+</doc>

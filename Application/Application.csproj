@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="FluentValidation" Version="11.1.1" />
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Clients\" />
+    <None Remove="Clients\Commands\" />
+    <None Remove="Clients\Queries\" />
+    <None Remove="Clients\Queries\GetClientById\" />
+    <None Remove="Clients\Commands\CreateClient\" />
+    <None Remove="Clients\Queries\GetClients\" />
+    <None Remove="Combos\" />
+    <None Remove="Combos\Queries\" />
+    <None Remove="Combos\Queries\GetTipoDocumento\" />
+    <None Remove="Clients\Commands\DeleteClient\" />
+    <None Remove="Clients\Commands\UpdateClient\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clients\" />
+    <Folder Include="Clients\Commands\" />
+    <Folder Include="Clients\Queries\" />
+    <Folder Include="Clients\Queries\GetClientById\" />
+    <Folder Include="Clients\Commands\CreateClient\" />
+    <Folder Include="Clients\Queries\GetClients\" />
+    <Folder Include="Combos\" />
+    <Folder Include="Combos\Queries\" />
+    <Folder Include="Combos\Queries\GetTipoDocumento\" />
+    <Folder Include="Clients\Commands\DeleteClient\" />
+    <Folder Include="Clients\Commands\UpdateClient\" />
+  </ItemGroup>
+</Project>
